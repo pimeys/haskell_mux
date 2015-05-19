@@ -20,6 +20,6 @@ executable mux
   main-is:             Mux.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && <4.9, zeromq4-haskell, bytestring
   hs-source-dirs:      src
   default-language:    Haskell2010
